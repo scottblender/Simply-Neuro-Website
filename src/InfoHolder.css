@@ -1,0 +1,20 @@
+/* Chinmayi Balusu - profile picture_JPG_jp 1 */
+.Container{
+    float: inline-start;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+.InfoChinmayi{
+   
+    border-radius: 50%;
+    width: calc(20vw)
+}
+.InfoChinmayiText{
+    float: inline-start;
+    opacity: 0;
+}
+.Container:hover .InfoChinmayiText {
+    opacity: 1;
+    color: white;
+}

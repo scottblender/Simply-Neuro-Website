@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+.text{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inder', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+}
+
+.title{
+position: fixed;
+width: 1033px;
+height: 124px;
+right: calc(5vw);
+top: calc(30vh);
+}
+.paragraph{
+    position: fixed;
+    width: 685px;
+    height: 78px;
+    right: calc(10vw);
+    top: calc(40vh);
+    flex-direction: column;
+}
+.learn{
+    position: fixed;
+    width: 685px;
+    height: 78px;
+    right: calc(15vw);
+    top: calc(47vh);
+    flex-direction: column;
+}
+.image{
+    width: 40%;
+    height: 40%;
+    margin-left: calc(-25vw);
+    margin-top: calc(15vh);
+
+}
