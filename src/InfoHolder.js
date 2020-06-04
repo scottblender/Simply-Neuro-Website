@@ -1,18 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Chinmayi from './assets/images/chinmayi.png'
 import './InfoHolder.css'
 import useLockBodyScroll from './useLockBodyScroll'
 import Aux from './Auxilliary'
 const InfoHolder = () => {
+    const [isHovering, setHovering] = useState(false);
     useLockBodyScroll()
     return(
         <Aux>
         <div className='Container'>
-        <img className='InfoChinmayi' src={Chinmayi} alt=''>
+        <div>
+        <img onMouseEnter={() => setHovering(!isHovering)} onMouseLeave={() => setHovering(!isHovering)}src={Chinmayi} alt=''>
         </img>
-        <p className='InfoChinmayiText'>My name is Chinmayi.</p>
+        {isHovering ?  <p>My name is Chinmayi</p> : ''}
         </div>
-        <div></div>
+        </div>
         </Aux>
     )
 }

@@ -1,20 +1,16 @@
 /* Chinmayi Balusu - profile picture_JPG_jp 1 */
 .Container{
-    float: inline-start;
-    display: inline-block;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 5px;    
+}
+.Container img{
+    flex: 25%;
     padding: 10px;
-    margin: 10px;
-}
-.InfoChinmayi{
-   
     border-radius: 50%;
-    width: calc(20vw)
+    width: calc(20vw);
+    height: calc(20vh);
 }
-.InfoChinmayiText{
-    float: inline-start;
-    opacity: 0;
-}
-.Container:hover .InfoChinmayiText {
-    opacity: 1;
+.Container p{
     color: white;
 }

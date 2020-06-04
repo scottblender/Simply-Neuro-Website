@@ -1,6 +1,5 @@
 .menu {
     width: 100%;
-    height: 100vh;
     display: block;
     text-align: center;
     padding: 0px;
@@ -13,10 +12,9 @@
   }
   .menu li {
     list-style: outside none none;
-    margin: 10px 0px;
+    margin: 125px;
     padding: 0;
     cursor: pointer;
-    margin: 125px
   }
   .menu li:hover {
     color: #ff0000;

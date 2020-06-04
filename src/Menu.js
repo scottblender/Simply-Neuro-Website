@@ -3,7 +3,7 @@ import './Menu.css'
 import {Route, Link, BrowserRouter as Router} from 'react-router-dom';
 const menu = () => {
     return(
-        <span className ='menu'>
+        <div className ='menu'>
         <ul>
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/InfoHolder'>About Us</Link></li>
@@ -11,7 +11,7 @@ const menu = () => {
             <li>Partners</li>
             <li>Blog</li>
         </ul>
-        </span>
+        </div>
     )
 }
 export default menu;
