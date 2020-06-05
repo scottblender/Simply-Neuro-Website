@@ -6,8 +6,8 @@ const menu = () => {
         <div className ='menu'>
         <ul>
             <li><Link to='/'>Home</Link></li>
-            <li><Link to='/InfoHolder'>About Us</Link></li>
-            <li>Our Team</li>
+            <li>About Us</li>
+            <li><Link to='/InfoHolder'>Our Team</Link></li>
             <li>Partners</li>
             <li>Blog</li>
         </ul>
