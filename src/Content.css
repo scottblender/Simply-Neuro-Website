@@ -1,26 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
 .text{
-    margin-top: 150px;
-    font-family: 'Inder', sans-serif;
-    font-style: normal;
-    font-size: 1.2em;
-    font-weight: normal;
+    position: fixed;
+    left: 0;
+    top: calc(25%);
+    font-size: 1.4em;
     color: white;
+    width: 100%;
+    text-align: center;
+}
+.text button:hover{
+    cursor: pointer;
 }
 
-
-.image{
-    margin: 0;
-    padding: 10px;
-    width: calc(30vw);
-}
-.Container3{
-    padding-right: 0;
-    padding-left: 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 150px;
-}
-.learn{
-    display: inline-block;
-}
