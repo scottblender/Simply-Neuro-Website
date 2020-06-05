@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+
+.Container1{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.Container1 img{
+    padding: 10px;
+}
+.Container1 h3{
+    font-family: 'Inder', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+}

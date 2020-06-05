@@ -5,8 +5,9 @@ import logo from './assets/images/ICON.png'
 const Content = () => {
     return(
         <Aux>
-    <div className='text'>
+    <div className='Container3'>
     <img className='image'src={logo} alt=''></img>
+    <div className='text'>
     <div className="title">
     <h1>Simply Neuroscience</h1>
     </div>
@@ -17,7 +18,8 @@ const Content = () => {
       </p>
     </div>
     <div className='learn'>
-      <h3>Learn more...</h3>
+      <button>Learn more...</button>
+    </div>
     </div>
     </div>
     </Aux>
