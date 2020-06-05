@@ -9,7 +9,7 @@
     padding: 10px;
     border-radius: 50%;
     width: calc(20vw);
-    height: calc(20%);
+    height: calc(20%*0.4vh);
 }
 .Container p{
     color: white;
