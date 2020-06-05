@@ -3,6 +3,7 @@ import './App.css';
 import Aux from './Auxilliary';
 import useLockBodyScroll from './useLockBodyScroll'
 import Content from './Content'
+
 function App() {
   useLockBodyScroll()
   return (
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
   <Content></Content>
     </div>
+    
     </Aux>
   );
 }
