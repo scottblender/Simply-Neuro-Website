@@ -1,0 +1,14 @@
+.Container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 25px;    
+}
+.Container img{
+    flex: 25%;
+    padding: 10px;
+    border-radius: 50%;
+    width: calc(20vw);
+}
+.Container p{
+    color: white;
+}

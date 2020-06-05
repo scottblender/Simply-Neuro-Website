@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
 import Chinmayi from './assets/images/chinmayi.png'
-import './InfoHolder.css'
+import './OurTeam.css'
 import useLockBodyScroll from './useLockBodyScroll'
 import Aux from './Auxilliary'
-const InfoHolder = () => {
+const OurTeam = () => {
     const [isHovering, setHovering] = useState(false);
     const [isHovering2, setHovering2] = useState(false);;;
     useLockBodyScroll()
@@ -24,4 +24,4 @@ const InfoHolder = () => {
         </Aux>
     )
 }
-export default InfoHolder;
+export default OurTeam;

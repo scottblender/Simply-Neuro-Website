@@ -1,0 +1,21 @@
+.About{
+    color: white;
+    display: block;
+    padding: 150px;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 1.5em;
+}
+.Section{
+    text-align: center;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 20%;
+    width: 100%;
+    text-align: center;
+}
+.Section img {
+    width: 5%;
+    padding: 30px;
+}
