@@ -5,14 +5,14 @@ import useLockBodyScroll from './useLockBodyScroll'
 import Content from './Content'
 import logo from './assets/images/ICON.png'
 
-function App() {
+const App = () => {
   useLockBodyScroll()
   return (
     <Aux>
-    <div className="App">
-    <img className='image'src={logo} alt=''></img>
-    <Content></Content>
-    </div>
+      <div className="App">
+      <img className='image'src={logo} alt=''></img>
+      <Content></Content>
+      </div>
     </Aux>
   );
 }

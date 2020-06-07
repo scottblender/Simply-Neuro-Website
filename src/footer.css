@@ -10,6 +10,7 @@
 .Container1 img{
     width: calc(2.4vw);
     padding: 5px;
+    margin-bottom: 1%;
 }
 .Container1 h3{
     font-family: 'Inder', sans-serif;

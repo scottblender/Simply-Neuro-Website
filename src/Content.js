@@ -19,8 +19,10 @@ class Content extends Component {
         <Aux>
   
     <div className='text'>
-      <h1>Simply Neuroscience</h1>
-      <p>Pursuing the brain, Pursuing the brain, 
+      <div class="line-1 anim-typewriter">
+        <h1>Simply Neuroscience</h1>
+      </div>
+      <p>Pursuing the brain and
         unlocking the future, 
         one neuron at a time. 
       </p>
