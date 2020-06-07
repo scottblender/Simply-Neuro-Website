@@ -5,6 +5,7 @@ import Aux from './Auxilliary'
 import BRC from './assets/images/brc.png'
 import Podcast from './assets/images/podcast.png'
 import Writing from './assets/images/writing.png'
+
 const AboutUs = () => {
     useLockBodyScroll()
     return(
@@ -15,7 +16,7 @@ const AboutUs = () => {
                 We are in the works of creating guides about mental health along with illnesses that are not very well known to provide students with the knowledge and resources to promote awareness in their communities. Additionally, we are working to get legislation regarding mental illness passed by Congress. Furthermore, we are putting together a resource bank of undergraduate students, graduate students, and professionals involved in neuroscience and psychology as a part of our mentorship network. 
                 We hope that these individuals can serve as a point of contact for high school students interested in pursuing neuroscience or psychology in college and beyond and can provide guidance along the way. Last but not least, we are currently organizing neuroscience and psychology conferences/conventions for high school students. Currently, we are organizing a virtual/online conference for the summer of 2020, and we hope to introduce high school students to the wonders of the brain and develop their interests. 
                 Overall, Our goal is to guide and support students in every step of their neuroscience and psychology journey!
-                </p>
+            </p>
         </div>
         <div className="Section">
             <h3>
@@ -28,4 +29,4 @@ const AboutUs = () => {
         </Aux>
     )
 }
-export default AboutUs
+export default AboutUs;

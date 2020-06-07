@@ -1,5 +1,6 @@
 import React from "react";
 import './BurgerIcon.css'
+
 export default ({ open, ...props }) => (
   <div className={open ? "burger-menu open" : "burger-menu"} {...props}>
     <div className="bar1" key="b1" />

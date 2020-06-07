@@ -11,9 +11,8 @@ function App() {
     <Aux>
     <div className="App">
     <img className='image'src={logo} alt=''></img>
-  <Content></Content>
+    <Content></Content>
     </div>
-    
     </Aux>
   );
 }

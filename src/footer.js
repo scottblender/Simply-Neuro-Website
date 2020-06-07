@@ -3,6 +3,7 @@ import insta from './assets/images/insta.png'
 import twitter from './assets/images/twitter.png'
 import medium from './assets/images/medium.png'
 import './footer.css'
+
 const footer = () => {
     return(
         <div className='Container1'>

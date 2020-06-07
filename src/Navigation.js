@@ -3,6 +3,7 @@ import Aux from './Auxilliary'
 import Menu from './Menu'
 import BurgerIcon from "./BurgerIcon";
 import Popup from "reactjs-popup";
+
 class Navigation extends Component {
     constructor(props){
         super(props);
@@ -11,11 +12,13 @@ class Navigation extends Component {
             displayData : [props.children]
         };
     }
-   contentStyle = {
+
+    contentStyle = {
         background: "rgba(255,255,255,0",
         width: "80%",
         border: "none"
-      };
+    };
+
     render(){
         let onScreenDisplay = this.state.displayData
         return(
@@ -30,8 +33,8 @@ class Navigation extends Component {
              {close => <Menu close={close} />}
             </Popup>
            
-             {onScreenDisplay}
-               </Aux>
+            {onScreenDisplay}
+            </Aux>
         )
     }
 }

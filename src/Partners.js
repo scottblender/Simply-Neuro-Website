@@ -3,6 +3,7 @@ import StickerMule from './assets/images/stickermule.png'
 import './Partners.css'
 import useLockBodyScroll from './useLockBodyScroll'
 import Aux from './Auxilliary'
+
 const Partners = () => {
     const [isHovering, setHovering] = useState(false);
     const [isHovering2, setHovering2] = useState(false);;;
