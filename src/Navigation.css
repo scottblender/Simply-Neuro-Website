@@ -1,0 +1,11 @@
+.image{
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    left: 20px;
+    top: 40px;
+    z-index: 9999;
+    padding: 10px;
+    width: calc(2.4vw);
+  }
+  

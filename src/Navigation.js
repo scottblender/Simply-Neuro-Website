@@ -3,6 +3,9 @@ import Aux from './Auxilliary'
 import Menu from './Menu'
 import BurgerIcon from "./BurgerIcon";
 import Popup from "reactjs-popup";
+import logo from './assets/images/ICON.png'
+import './Navigation.css'
+import {Route, Link, BrowserRouter as Router} from 'react-router-dom';
 
 // navigation component 
 class Navigation extends Component {
@@ -35,7 +38,7 @@ class Navigation extends Component {
                 >
                 {close => <Menu close={close} />}
                 </Popup>
-           
+                <Link to='/'><img className='image'src={logo} alt=''></img></Link>
             {onScreenDisplay}
             </Aux>
         )
