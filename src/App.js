@@ -5,6 +5,8 @@ import useLockBodyScroll from './useLockBodyScroll'
 import Content from './Content'
 import logo from './assets/images/ICON.png'
 
+// renders logo 
+
 const App = () => {
   useLockBodyScroll()
   return (

@@ -4,6 +4,7 @@ import twitter from './assets/images/twitter.png'
 import medium from './assets/images/medium.png'
 import './footer.css'
 
+// social media links as footers for each page
 const footer = () => {
     return(
         <div className='Container1'>

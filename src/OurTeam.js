@@ -4,6 +4,7 @@ import './OurTeam.css'
 import useLockBodyScroll from './useLockBodyScroll'
 import Aux from './Auxilliary'
 
+// displays executive team with hovering animations (will use react-bootstrap as template)
 const OurTeam = () => {
     const [isHovering, setHovering] = useState(false);
     const [isHovering2, setHovering2] = useState(false);;;

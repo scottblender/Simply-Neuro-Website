@@ -1,6 +1,8 @@
 import React from 'react'
 import './Menu.css'
 import {Route, Link, BrowserRouter as Router} from 'react-router-dom';
+
+// links to the routes listed in routing.js
 export default ({close}) => {
     return(
         <div className ='menu'>

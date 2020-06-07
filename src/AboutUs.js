@@ -6,6 +6,7 @@ import BRC from './assets/images/brc.png'
 import Podcast from './assets/images/podcast.png'
 import Writing from './assets/images/writing.png'
 
+// about us page containing introduction + departments
 const AboutUs = () => {
     useLockBodyScroll()
     return(

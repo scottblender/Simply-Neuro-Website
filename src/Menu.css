@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
 .menu {
     width: 100%;
     display: block;
@@ -15,9 +16,8 @@
     margin: 125px;
     padding: 0;
     cursor: pointer;
+    font-weight: 900;
   }
   .menu li:hover {
     color: #ff0000;
   }
-  
-  

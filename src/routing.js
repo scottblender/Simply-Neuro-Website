@@ -9,6 +9,7 @@ import useLockBodyScroll from './useLockBodyScroll'
 import Footer from './footer'
 import SN from './assets/images/SN.mp4'
 
+// routes for the site; contains the various subpages we have (our team, about us, partners, etc.)
 const Routing = () => {
     useLockBodyScroll()
     return(
