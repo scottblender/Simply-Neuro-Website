@@ -6,19 +6,15 @@
     bottom: 0;
     width: 100%;
     text-align: center;
-    position: relative;
-    padding-top: 13%;
 }
 .Container1 img{
     width: calc(2.4vw);
     padding: 5px;
     margin-bottom: 1%;
-    position: relative;
 }
 .Container1 h3{
     font-family: 'Inder', sans-serif;
     font-style: normal;
     font-weight: normal;
     color: white;
-    position: relative;
 }
