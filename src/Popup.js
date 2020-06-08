@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import * as typeformEmbed from'@typeform/embed'
+import { Button } from '@material-ui/core'
 
 class Popup extends Component {
 
@@ -25,7 +26,9 @@ class Popup extends Component {
     render() {
         return (
             <div>
-                <button id="bt-popup" class="my-button">Learn more...</button>
+                <Button variant="contained" id="bt-popup" color="primary">
+                    Learn more
+                </Button>
             </div>
         )
     }
