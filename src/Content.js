@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './Content.css'
 import Aux from './Auxilliary'
 import  {ReactTypeformEmbed}  from 'react-typeform-embed'
+import Popup from './Popup'
 
 // home page content 
 class Content extends Component {
@@ -27,19 +28,7 @@ class Content extends Component {
             unlocking the future, 
             one neuron at a time. 
           </p>
-          <ReactTypeformEmbed
-              popup
-              autoOpen={false}
-              url="https://chinmayibalusu.typeform.com/to/y8ouTz"
-              hideHeaders
-              hideFooter
-              buttonText="Go!"
-              style={{ top: 100 }}
-              ref={tf => {
-                this.typeformEmbed = tf;
-              }}
-            />
-          <button onClick={this.openFormHandeler}>Learn more...</button>
+          <Popup></Popup>
         </div>
       </Aux>
     )
